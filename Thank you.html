@@ -1,0 +1,187 @@
+<!doctype HTML>
+<html lang="en-PH">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+
+    <style>
+        .popup {
+            position: fixed;
+            inset: 0;
+            font-size: xx-large;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(2px);
+        }
+
+        .emoji1 {
+            top: 10%;
+            left: 20%;
+        }
+
+        .emoji2 {
+            top: 20%;
+            left: 80%;
+        }
+
+        .emoji3 {
+            top: 30%;
+            left: 40%;
+        }
+
+        .emoji4 {
+            top: 40%;
+            left: 60%;
+        }
+
+        .emoji5 {
+            top: 50%;
+            left: 30%;
+        }
+
+        .emoji6 {
+            top: 60%;
+            left: 70%;
+        }
+
+        .emoji7 {
+            top: 70%;
+            left: 50%;
+        }
+
+        .emoji8 {
+            top: 80%;
+            left: 20%;
+        }
+
+        .emoji9 {
+            top: 90%;
+            left: 80%;
+        }
+
+        .emoji10 {
+            top: 10%;
+            left: 50%;
+        }
+
+        .emoji11 {
+            top: 20%;
+            left: 30%;
+        }
+
+        .emoji12 {
+            top: 30%;
+            left: 70%;
+        }
+
+        .emoji13 {
+            top: 40%;
+            left: 40%;
+        }
+
+        .emoji14 {
+            top: 50%;
+            left: 60%;
+        }
+
+        .emoji15 {
+            top: 60%;
+            left: 20%;
+        }
+
+        .emoji16 {
+            top: 70%;
+            left: 80%;
+        }
+
+
+
+        .emoji {
+            position: absolute;
+            font-size: xx-large;
+            animation: emojiAnimation 2s ease-in-out infinite;
+        }
+
+        @keyframes emojiAnimation {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-20px);
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        h1 {
+    font-size: clamp(2rem, 8vw, 4rem);
+}
+
+body { background:linear-gradient(#fafafa,#ececec); font-family: 'Poppins', sans-serif;}
+img{
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+img{
+    border-radius:15px;
+}
+p{
+line-height:1.8;
+}
+    </style>
+</head>
+<body>
+    <div class="website">
+        <h1 style="text-align: center;"> Thank you very much!</h1>
+        <p style="text-align: center;"> "A website I made as a starting point for coding"</p>
+        <img src="keyboard.jpg.jpg " alt="keyboard" style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;">
+    
+        <p style="text-align: center;"> I just wanted to say thank you so much for helping me get this keyboard.<br> Even though you only paid for half of it, that was still a huge help, and I really appreciate it.
+
+<br><br>I've been wanting a keyboard like this for a long time because I enjoy typing and I'm learning how to code. <br>Every time I practice, work on a project, or build something new, I'll remember that you helped make it possible.
+
+<br> <br>This keyboard isn't just something cool to have, it'll help me improve my typing, learn programming, and create things I'm proud of. <br>Hopefully one day those skills will help me build a good future, and you'll have been part of that journey from the beginning.
+
+<br><br>Thank you for believing in me and supporting something that means a lot to me.</p>
+        <video src="typing.mp4" controls autoplay style="display: block; margin-left: auto; margin-right: auto; width: 40%; height: auto;"></video>
+   <p style="text-align: center;">My first website. <br>
+
+Built with HTML, CSS, and JavaScript. <br>
+
+July 2026.</p> 
+    </div>
+     <div class="popup" id="thankyoumessage"> 
+        <h1>Thank you!💖</h1> 
+        <p style="font-size: large;">Thank you for agreeing to my selfish request!</p>
+        <p style="font-size: small;">Click anywhere to close this message</p>
+             <div class="emoji emoji1">👏</div>
+     <div class="emoji emoji2">💖</div>
+     <div class="emoji emoji3">🎉</div>
+     <div class="emoji emoji4">🥰</div>
+     <div class="emoji emoji5">👏</div>
+     <div class="emoji emoji6">💖</div>
+     <div class="emoji emoji7">🎉</div>
+     <div class="emoji emoji8">🥰</div>
+     <div class="emoji emoji9">👏</div>
+     <div class="emoji emoji10">💖</div>
+     <div class="emoji emoji11">🎉</div>
+     <div class="emoji emoji12">🥰</div>
+     <div class="emoji emoji13">👏</div>
+     <div class="emoji emoji14">💖</div>
+     <div class="emoji emoji15">🎉</div>
+     <div class="emoji emoji16">🥰</div>
+     </div>
+
+<script> 
+    const popup = document.getElementById("thankyoumessage")
+    popup.addEventListener("click", ()=>{
+        popup.style.display = "none"
+    });
+</script>
